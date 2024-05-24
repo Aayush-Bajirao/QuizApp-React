@@ -1,0 +1,117 @@
+.inline {
+    display: inline-block;
+}
+
+.navbar {
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    left: 0px;
+
+}
+
+
+
+h1 {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 70px;
+
+}
+
+.menu {
+    margin-top: 156px;
+}
+
+.logout {
+    margin-top: 215px;
+}
+
+.menu a {
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding-inline: 0;
+    display: block;
+    padding: 15px 0px;
+}
+
+.page {
+    position: absolute;
+    left: 300px;
+    background: #EDEDED;
+    width: 80%;
+    height: 100vh;
+}
+
+.highligths div {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    margin-inline: 70px;
+    width: 190px;
+    height: 95px;
+    margin-block: 60px;
+}
+
+.highligths span {
+    margin-right: 10px;
+    font-size: 33px;
+}
+
+.highligths h2 {
+    margin: 3px;
+}
+
+.quiz {
+    color: #FF5D01;
+}
+
+.ques {
+    color: #60B84B;
+}
+
+.imp {
+    color: #5076FF;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 32px;
+    grid-auto-rows: minmax(auto, auto);
+    margin: 70px 30px 70px 114px;
+}
+
+.grid-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    padding: 10px 10px 5px 10px;
+    width: 148px;
+}
+
+.grid-item p {
+    margin: 0px;
+    font-weight: 600;
+}
+
+.views {
+    color: #FF5D01;
+}
+
+.grid-item .heading {
+    font-weight: 600;
+    margin-right: 54px;
+    font-size: 23px;
+}
+
+.created-on {
+    font-size: small;
+    margin-top: 5px;
+    text-align: left;
+    color: #60B84B;
+    font-weight: 600;
+}

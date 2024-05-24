@@ -1,15 +1,11 @@
 import "./App.css";
-import Home from "./components/Home";
+import Analytics from "./pages/analytics/Analytics";
+import Dashboard from "./pages/dashboard/Dashboard";
 
 function App() {
   return (
     <div className="App">
-      <div class="container">
-        <div id="quizzieBox">
-          <h1>Quizzie</h1>
-          <Home></Home>
-        </div>
-      </div>
+      <Analytics></Analytics>
     </div>
   );
 }

@@ -1,0 +1,38 @@
+.inline {
+    display: inline-block;
+}
+
+.navbar {
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    left: 0px;
+
+}
+
+
+
+h1 {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 70px;
+
+}
+
+.menu {
+    margin-top: 156px;
+}
+
+.logout {
+    margin-top: 215px;
+}
+
+.menu a {
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding-inline: 0;
+    display: block;
+    padding: 15px 0px;
+}
