@@ -39,7 +39,7 @@ h1 {
 
 .page {
     position: absolute;
-    left: 300px;
+    left: 326px;
     background: #EDEDED;
     width: 80%;
     height: 100vh;
@@ -114,4 +114,8 @@ h1 {
     text-align: left;
     color: #60B84B;
     font-weight: 600;
+}
+
+.dashboard {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
 }

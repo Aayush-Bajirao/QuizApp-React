@@ -7,9 +7,9 @@ export default function Navbar() {
       <div class="navbar inline">
         <h1>QUIZZIE</h1>
         <div class="menu">
-          <a>Dashboard</a>
-          <a>Analytics</a>
-          <a>Create Quiz</a>
+          <a class="dashboard">Dashboard</a>
+          <a class="analytics">Analytics</a>
+          <a class="createquiz">Create Quiz</a>
 
           <div class="logout">
             --------------------------

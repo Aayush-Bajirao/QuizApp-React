@@ -28,11 +28,13 @@ h1 {
 }
 
 .menu a {
-    width: 100%;
+    width: 80%;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     padding-inline: 0;
     display: block;
     padding: 15px 0px;
+    margin-left: 10px;
+    border-radius: 10px;
 }

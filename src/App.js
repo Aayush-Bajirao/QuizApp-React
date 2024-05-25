@@ -1,11 +1,10 @@
 import "./App.css";
-import Analytics from "./pages/analytics/Analytics";
-import Dashboard from "./pages/dashboard/Dashboard";
+import CreateQuiz from "./pages/createQuiz/CreateQuiz";
 
 function App() {
   return (
     <div className="App">
-      <Analytics></Analytics>
+      <CreateQuiz></CreateQuiz>
     </div>
   );
 }
