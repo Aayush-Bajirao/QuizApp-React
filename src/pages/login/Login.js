@@ -16,7 +16,7 @@ export default function Login() {
             <button
               id="signUpButton"
               onClick={signUpClick}
-              class={activeForm === "signUp" ? "activeSignUpButton" : ""}
+              class={activeForm === "signUp" ? "activeButton" : ""}
             >
               Sign Up
             </button>
@@ -25,7 +25,7 @@ export default function Login() {
             <button
               id="logInButton"
               onClick={() => setActiveForm("logIn")}
-              class={activeForm === "logIn" ? "activeSignUpButton" : ""}
+              class={activeForm === "logIn" ? "activeButton" : ""}
             >
               Log In
             </button>
