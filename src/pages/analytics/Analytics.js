@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 import "./Analytics.css";
+import { Link } from "react-router-dom";
 
 export default function Analytics() {
   return (
@@ -29,7 +30,7 @@ export default function Analytics() {
                 <a>Edit</a> <a>Delete</a> <a>Share</a>
               </td>
               <td>
-                <a>Link</a>
+                <Link to="/questionwiseanalysis">Link</Link>
               </td>
             </tr>
             <tr>
@@ -41,7 +42,7 @@ export default function Analytics() {
                 <a>Edit</a> <a>Delete</a> <a>Share</a>
               </td>
               <td>
-                <a>Link</a>
+                <Link to="/questionwiseanalysis">Link</Link>
               </td>
             </tr>
             <tr>
@@ -53,7 +54,7 @@ export default function Analytics() {
                 <a>Edit</a> <a>Delete</a> <a>Share</a>
               </td>
               <td>
-                <a>Link</a>
+                <Link to="/questionwiseanalysis">Link</Link>
               </td>
             </tr>
             <tr>
@@ -65,7 +66,7 @@ export default function Analytics() {
                 <a>Edit</a> <a>Delete</a> <a>Share</a>
               </td>
               <td>
-                <a>Link</a>
+                <Link to="/questionwiseanalysis">Link</Link>
               </td>
             </tr>
             <tr>
@@ -77,7 +78,7 @@ export default function Analytics() {
                 <a>Edit</a> <a>Delete</a> <a>Share</a>
               </td>
               <td>
-                <a>Link</a>
+                <Link to="/questionwiseanalysis">Link</Link>
               </td>
             </tr>
             <tr>
@@ -89,7 +90,7 @@ export default function Analytics() {
                 <a>Edit</a> <a>Delete</a> <a>Share</a>
               </td>
               <td>
-                <a>Link</a>
+                <Link to="/questionwiseanalysis">Link</Link>
               </td>
             </tr>
             <tr>
