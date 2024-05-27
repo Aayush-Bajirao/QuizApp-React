@@ -18,7 +18,6 @@ export default function Navbar() {
             <Link className="createquiz" to="/create-quiz">
               Create Quiz
             </Link>
-            <div class="border"></div>
             <Link className="logout" to="/">
               LOGOUT
             </Link>

@@ -16,7 +16,9 @@ h1 {
     font-size: 35px;
     font-weight: 400;
     line-height: 70px;
-
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }
 
 .menu {
@@ -24,10 +26,20 @@ h1 {
 }
 
 .logout {
+    margin-top: 210px !important;
     border-top: 1px solid grey;
 }
 
+.createquiz,
+.analytics,
+.dashboard {
+    border-radius: 10px;
+}
+
 .menu a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
     width: 80%;
     font-weight: 600;
     font-size: 20px;
@@ -35,6 +47,7 @@ h1 {
     padding-inline: 0;
     display: flex;
     padding: 15px 0px;
-    margin-left: 10px;
-    box-shadow: none !important;
+    margin: 10px auto;
+    margin-left: 8px;
+    box-shadow: none;
 }
