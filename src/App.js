@@ -1,12 +1,20 @@
-import "./App.css";
-import QuestionwiseAnalysis from "./pages/analytics/QuestionwiseAnalysis";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Dashboard from "./pages/dashboard/Dashboard";
+import Analytics from "./pages/analytics/Analytics";
+import CreateQuiz from "./pages/createQuiz/CreateQuiz";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <QuestionwiseAnalysis></QuestionwiseAnalysis>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/analytics" element={<Analytics />} />
+        <Route path="/create-quiz" element={<CreateQuiz />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;

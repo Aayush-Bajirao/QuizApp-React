@@ -17,3 +17,15 @@ table {
     width: 80%;
     height: 100vh;
 }
+
+.head {
+    padding-inline: 20px;
+}
+
+td,
+th {
+    padding: 5px 10px;
+    /* Padding within cells (optional) */
+    margin: 0 15px;
+    /* Margin for spacing between cells */
+}

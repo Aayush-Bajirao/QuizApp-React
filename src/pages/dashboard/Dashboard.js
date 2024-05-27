@@ -25,7 +25,7 @@ export default function Dashboard() {
           </div>
         </div>
         <div>
-          <h2>Trending Quizs</h2>
+          <h2 class="trending">Trending Quizs</h2>
           <div class="grid-container container">
             <div class="grid-item">
               <p>

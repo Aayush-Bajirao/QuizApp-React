@@ -77,6 +77,10 @@ h1 {
 
 }
 
+.trending {
+    padding-inline: 20px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

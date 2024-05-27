@@ -1,20 +1,28 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div>
-      <div class="navbar inline">
+    <div className="navbar-container">
+      <div className="navbar inline">
         <h1>QUIZZIE</h1>
-        <div class="menu">
-          <a class="dashboard">Dashboard</a>
-          <a class="analytics">Analytics</a>
-          <a class="createquiz">Create Quiz</a>
-
-          <div class="logout">
-            --------------------------
-            <a>LOGOUT</a>
-          </div>
+        <div className="menu">
+          <nav>
+            <Link className="dashboard" to="/dashboard">
+              Dashboard
+            </Link>
+            <Link className="analytics" to="/analytics">
+              Analytics
+            </Link>
+            <Link className="createquiz" to="/create-quiz">
+              Create Quiz
+            </Link>
+            <div class="border"></div>
+            <Link className="logout" to="/">
+              LOGOUT
+            </Link>
+          </nav>
         </div>
       </div>
     </div>

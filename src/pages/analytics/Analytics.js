@@ -7,8 +7,8 @@ export default function Analytics() {
     <div>
       <Navbar></Navbar>
       <div class="page">
-        <h1>Analytics</h1>
-        <table class="w3-table w3-striped w3-border">
+        <h2 class="head">Analytics</h2>
+        <table class="table">
           <thead>
             <tr>
               <th>S.No</th>
