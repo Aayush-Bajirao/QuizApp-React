@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import Mymodal from "../pages/createQuiz/Mymodal";
 
 export default function Navbar() {
+  const [showModal, setShowModal] = useState(false);
+
+  const closeModal = () => setShowModal(false);
+
   return (
     <div className="navbar-container">
       <div className="navbar inline">
         <h1>QUIZZIE</h1>
+
         <div className="menu">
           <nav>
             <Link className="dashboard" to="/dashboard">
@@ -15,9 +21,12 @@ export default function Navbar() {
             <Link className="analytics" to="/analytics">
               Analytics
             </Link>
-            <Link className="createquiz" to="/create-quiz">
-              Create Quiz
-            </Link>
+
+            <button onClick={() => setShowModal(true)} className="createquiz">
+              <a>Create Quiz</a>
+            </button>
+            {showModal && <Mymodal closeModal={closeModal} />}
+
             <Link className="logout" to="/">
               LOGOUT
             </Link>
