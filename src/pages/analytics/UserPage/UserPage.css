@@ -72,3 +72,47 @@
     background: #60B84B;
     text-transform: uppercase;
 }
+
+.display-grid-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px
+}
+
+.display-grid-image img {
+    width: 315px;
+    height: 106px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.display-grid-text-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px
+}
+
+.option {
+    width: 311px;
+    height: 100px;
+    background: #F0F0F0;
+    border-radius: 10px;
+}
+
+.option img {
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.option p {
+    display: block;
+    padding-left: 35px;
+    padding-top: 0px;
+    width: 135px;
+    font-weight: 600;
+    line-height: 63px;
+    text-align: left;
+}
