@@ -2,10 +2,31 @@ import React, { useState } from "react";
 import "./UserPage.css";
 
 export default function UserPage() {
-  const [currentState, setCurrentState] = useState("state1"); // Initial state
+  const [currentState, setCurrentState] = useState("state3"); // Initial state
 
   const handleButtonClick = (newState) => {
     setCurrentState(newState);
+  };
+
+  const imageUrl1 =
+    "https://stimg.cardekho.com/images/carexteriorimages/930x620/Lamborghini/Huracan-EVO/7195/1645612088168/front-left-side-47.jpg"; // Replace with your image path
+  const styles1 = {
+    backgroundImage: `url(${imageUrl1})`,
+  };
+  const imageUrl2 =
+    "https://stimg.cardekho.com/images/carexteriorimages/930x620/Lamborghini/Huracan-EVO/7195/1645612088168/front-left-side-47.jpg"; // Replace with your image path
+  const styles2 = {
+    backgroundImage: `url(${imageUrl1})`,
+  };
+  const imageUrl3 =
+    "https://stimg.cardekho.com/images/carexteriorimages/930x620/Lamborghini/Huracan-EVO/7195/1645612088168/front-left-side-47.jpg"; // Replace with your image path
+  const styles3 = {
+    backgroundImage: `url(${imageUrl1})`,
+  };
+  const imageUrl4 =
+    "https://stimg.cardekho.com/images/carexteriorimages/930x620/Lamborghini/Huracan-EVO/7195/1645612088168/front-left-side-47.jpg"; // Replace with your image path
+  const styles4 = {
+    backgroundImage: `url(${imageUrl1})`,
   };
 
   return (
@@ -14,7 +35,7 @@ export default function UserPage() {
       <button onClick={() => handleButtonClick("state2")}>State 2</button>
       <button onClick={() => handleButtonClick("state3")}>State 3</button>
 
-      {currentState === "state2" && (
+      {currentState === "state1" && (
         <div class="wrapper">
           <div class="top-row display-flex">
             <p class="ques-number">04/04</p>
@@ -35,7 +56,7 @@ export default function UserPage() {
         </div>
       )}
 
-      {currentState === "state1" && (
+      {currentState === "state2" && (
         <div class="wrapper">
           <div class="top-row display-flex">
             <p class="ques-number">04/04</p>
@@ -47,23 +68,12 @@ export default function UserPage() {
             <h2>Your question text comes here, its a sample text.</h2>
           </div>
           <div class="display-grid-image">
-            <img
-              src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F03%2F2012-lexus-lfa-nurburgring-package-orange-japanese-supercar-bring-a-trailer-1-6-million-usd-1.jpg?cbr=1&q=90"
-              alt="Option 1"
-            />
-            <img
-              src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F03%2F2012-lexus-lfa-nurburgring-package-orange-japanese-supercar-bring-a-trailer-1-6-million-usd-1.jpg?cbr=1&q=90"
-              alt="Option 2"
-            />
-            <img
-              src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F03%2F2012-lexus-lfa-nurburgring-package-orange-japanese-supercar-bring-a-trailer-1-6-million-usd-1.jpg?cbr=1&q=90"
-              alt="Option 3"
-            />
-            <img
-              src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F03%2F2012-lexus-lfa-nurburgring-package-orange-japanese-supercar-bring-a-trailer-1-6-million-usd-1.jpg?cbr=1&q=90"
-              alt="Option 4"
-            />
+            <div style={styles1}></div>
+            <div style={styles2}></div>
+            <div style={styles3}></div>
+            <div style={styles4}></div>
           </div>
+
           <button class="submit-button">Next</button>
         </div>
       )}

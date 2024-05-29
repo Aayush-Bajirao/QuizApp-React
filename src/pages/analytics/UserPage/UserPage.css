@@ -73,20 +73,29 @@
     text-transform: uppercase;
 }
 
+
+
 .display-grid-image {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px
 }
 
-.display-grid-image img {
+.display-grid-image div {
     width: 315px;
     height: 106px;
     border-radius: 10px;
     display: block;
     margin: 0 auto;
     cursor: pointer;
+    width: 100%;
+    background-size: cover !important;
+    background-position: center !important;
 }
+
+
+
+
 
 .display-grid-text-img {
     display: grid;
