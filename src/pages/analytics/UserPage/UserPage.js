@@ -92,31 +92,19 @@ export default function UserPage() {
           <div class="display-grid-text-img">
             <div class="display-flex option">
               <p>Option 1</p>
-              <img
-                src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F03%2F2012-lexus-lfa-nurburgring-package-orange-japanese-supercar-bring-a-trailer-1-6-million-usd-1.jpg?cbr=1&q=90"
-                alt="Option 1"
-              />
+              <div style={styles1}></div>
             </div>
             <div class="display-flex option">
               <p>Option 1</p>
-              <img
-                src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F03%2F2012-lexus-lfa-nurburgring-package-orange-japanese-supercar-bring-a-trailer-1-6-million-usd-1.jpg?cbr=1&q=90"
-                alt="Option 1"
-              />
+              <div style={styles2}></div>
             </div>
             <div class="display-flex option">
               <p>Option 1</p>
-              <img
-                src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F03%2F2012-lexus-lfa-nurburgring-package-orange-japanese-supercar-bring-a-trailer-1-6-million-usd-1.jpg?cbr=1&q=90"
-                alt="Option 1"
-              />
+              <div style={styles3}></div>
             </div>
             <div class="display-flex option">
               <p>Option 1</p>
-              <img
-                src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F03%2F2012-lexus-lfa-nurburgring-package-orange-japanese-supercar-bring-a-trailer-1-6-million-usd-1.jpg?cbr=1&q=90"
-                alt="Option 1"
-              />
+              <div style={styles4}></div>
             </div>
           </div>
           <button class="submit-button">Next</button>

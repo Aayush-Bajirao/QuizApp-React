@@ -110,10 +110,12 @@
     border-radius: 10px;
 }
 
-.option img {
+.option div {
     margin: 10px;
     border-radius: 10px;
-
+    width: 23%;
+    background-size: cover !important;
+    background-position: center !important;
 }
 
 .option p {
