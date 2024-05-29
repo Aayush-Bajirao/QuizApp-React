@@ -1,8 +1,16 @@
 import "./Mymodal.css";
 import { useState } from "react";
+import QuestionModal from "./QuestionModal";
 
 const Mymodal = ({ closeModal }) => {
   const [isActive, setIsActive] = useState();
+  const [showModal2, setShowModal2] = useState(false);
+
+  const closeModal2 = () => setShowModal2(false);
+
+  const handleDisplay = () => {
+    setShowModal2(true);
+  };
 
   const handleClick = () => {
     setIsActive(!isActive);
@@ -41,7 +49,10 @@ const Mymodal = ({ closeModal }) => {
             <button class="cancel" onClick={closeModal}>
               Cancel
             </button>
-            <button class="continue">Continue</button>
+            <button onClick={handleDisplay} class="continue">
+              Continue
+            </button>
+            {showModal2 && <QuestionModal closeModal2={closeModal2} />}
           </div>
         </div>
       </div>

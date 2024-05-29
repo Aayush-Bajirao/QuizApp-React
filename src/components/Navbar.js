@@ -23,7 +23,7 @@ export default function Navbar() {
             </Link>
 
             <button onClick={() => setShowModal(true)} className="createquiz">
-              <a>Create Quiz</a>
+              <a style={{ fontWeight: 500, cursor: "pointer" }}>Create Quiz</a>
             </button>
             {showModal && <Mymodal closeModal={closeModal} />}
 

@@ -1,0 +1,9 @@
+.container-questionModal {
+    position: absolute;
+    top: 89px;
+    background: white;
+    width: 545px;
+    height: 310px;
+    left: 500px;
+    border-radius: 10px;
+}
