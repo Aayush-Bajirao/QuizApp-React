@@ -34,7 +34,7 @@ input::placeholder {
 }
 
 .quiz-name-type input {
-    width: 438px;
+    width: 486px;
     border-radius: 10px;
     height: 50px;
     background-color: #ffffff;
@@ -43,7 +43,7 @@ input::placeholder {
 }
 
 .quiz-name {
-    margin: 10px 26px;
+    margin: 10px 4px;
     width: 212px;
     text-align: center;
     font-size: 23px;
@@ -75,14 +75,14 @@ input::placeholder {
     border: none;
     border-radius: 10px;
     width: 184px;
-    margin: 10px 33px;
+    margin: 10px 0px;
     height: 44px
 }
 
 .cancel {
     box-shadow: 0px 0px 10px grey;
     background-color: white;
-
+    margin-right: 131px !important;
 }
 
 .continue {

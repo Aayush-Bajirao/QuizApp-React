@@ -93,10 +93,6 @@
     background-position: center !important;
 }
 
-
-
-
-
 .display-grid-text-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

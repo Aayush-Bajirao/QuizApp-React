@@ -2,7 +2,20 @@
     display: inline-block;
 }
 
+#quizzieBox {
+    box-shadow: 0px 0px 20px #959595;
+    margin: 92px 191px;
+    padding: 20px;
+    position: absolute;
+    border-radius: 22px;
+    width: 1113px;
+    height: 494px;
+}
 
+.slides {
+    width: 601px;
+    margin: auto;
+}
 
 .slides button {
     border-radius: 10px;
@@ -13,23 +26,16 @@
 }
 
 .activeButton {
-    box-shadow: 0px 0px 20px #282c34;
-
+    box-shadow: 0px 0px 24px #a7a7a7;
 }
+
 
 .logIn div {
     padding: 10px 30px;
 }
 
+.signUp input,
 .logIn input {
-    margin: 10px 30px;
-}
-
-.signUp div {
-    padding: 10px 30px;
-}
-
-.signUp input {
     margin: 10px 30px;
 }
 
@@ -39,4 +45,60 @@
 
 .blueButton {
     background-color: #A9BCFF;
+}
+
+.signUp,
+.logIn {
+    text-align: right;
+    width: 526px;
+    margin-top: 15px;
+}
+
+#quizzieBox {
+    color: #474444 !important;
+
+}
+
+#quizzieBox h1 {
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 61px;
+    text-align: center;
+    color: #474444;
+}
+
+#logInButton,
+#signUpButton {
+    background: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: center;
+    width: 173px;
+    height: 43px;
+}
+
+.signUp input,
+.logIn input {
+    background: #F4F4F4;
+    border: none;
+    width: 246px;
+    height: 33px;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.signUp p,
+.logIn p {
+    margin: 0px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+#sign-up {
+    margin-top: 20px;
+}
+
+.blueButton-div {
+    width: 400px;
 }

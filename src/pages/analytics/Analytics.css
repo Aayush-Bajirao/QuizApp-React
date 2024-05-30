@@ -14,7 +14,7 @@ table {
     position: absolute;
     left: 234px;
     background: #EDEDED;
-    width: 80%;
+    width: 84%;
     height: 100vh;
 }
 
@@ -28,4 +28,21 @@ th {
     /* Padding within cells (optional) */
     margin: 0 15px;
     /* Margin for spacing between cells */
+}
+
+.head {
+    padding-inline: 20px;
+    color: #5076FF;
+    width: 338px;
+    height: 75px;
+    top: 60px;
+    left: 567px;
+    gap: 0px;
+    opacity: 0px;
+    /* font-family: Poppins; */
+    font-size: 41px;
+    font-weight: 600;
+    line-height: 75px;
+    text-align: center;
+    width: 168vh;
 }

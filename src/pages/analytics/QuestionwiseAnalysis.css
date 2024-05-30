@@ -6,7 +6,7 @@
     position: absolute;
     left: 234px;
     background: #EDEDED;
-    width: 82.5%;
+    width: 84.5%;
     height: 100vh;
 }
 
@@ -53,7 +53,7 @@
 .analysis div {
     background-color: white;
     border-radius: 10px;
-    height: 92px;
+    height: 100px;
     margin: 10px 42px;
 }
 

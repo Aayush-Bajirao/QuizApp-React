@@ -48,7 +48,7 @@ export default function Login() {
                     <p class="inline passin">Password</p>
                     <input class="inline"></input>
                   </div>
-                  <div>
+                  <div class="blueButton-div">
                     <Link to="/dashboard">
                       <button className="blueButton">log In</button>
                     </Link>
@@ -73,7 +73,7 @@ export default function Login() {
                     <p class="inline confpass">Confirm Password</p>
                     <input class="inline"></input>
                   </div>
-                  <div>
+                  <div class="blueButton-div" id="sign-up">
                     <button className="blueButton">Sign Up</button>
                   </div>
                 </div>
